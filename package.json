@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build:release": "vite build --mode release",
+    "build:stage": "vite build --mode staging",
+    "build:test": "vite build --mode test",
+    "build:dev": "vite build --mode development",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vant": "^3.1.0-beta.0",
+    "vconsole": "^3.7.0",
+    "vite-plugin-mpa": "^1.0.3",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "amfe-flexible": "^2.2.1",
+    "inobounce": "^0.2.0",
+    "postcss-pxtorem": "5.1.1",
+    "vite": "^2.3.7",
+    "vite-plugin-imp": "^2.0.7",
+    "vite-plugin-vconsole": "^1.1.0"
+  }
+}
