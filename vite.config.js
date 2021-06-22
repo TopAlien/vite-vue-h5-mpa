@@ -1,4 +1,3 @@
-import mpa from 'vite-plugin-mpa';
 import vue from '@vitejs/plugin-vue';
 import * as path from 'path';
 import vitePluginImp from 'vite-plugin-imp';
@@ -21,20 +20,14 @@ export default ({ mode }) => {
           },
         },
       ],
-    }),
-    mpa({
-      open: '',
-      scanDir: 'src/pages',
-      scanFile: 'main.js',
-      filename: 'index.html',
-    }),
+    })
   ];
 
   if (mode !== 'release') {
     plugins = [
       ...plugins,
       viteVConsole({
-        entry: path.resolve('src/app.js'),
+        entry: path.resolve('src/main.js'),
         localEnabled: true,
         enabled: true,
       }),

@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import '/src/app'
+import 'inobounce'
+
+import 'amfe-flexible'
 
 createApp(App).mount('#app')
