@@ -20,6 +20,8 @@
     "amfe-flexible": "^2.2.1",
     "inobounce": "^0.2.0",
     "postcss-pxtorem": "5.1.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
     "vite": "^2.3.7",
     "vite-plugin-imp": "^2.0.7",
     "vite-plugin-vconsole": "^1.1.0"
