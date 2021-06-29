@@ -1,15 +1,11 @@
 <template>
-  <div>
-    阿沙迪克
-    <Button type="primary">玩撒的</Button>
-  </div>
+  <div>noble</div>
 </template>
 
 <script>
-import { Button } from 'vant';
-export default {
-  components: {
-    Button,
-  },
-};
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  setup() {},
+});
 </script>
