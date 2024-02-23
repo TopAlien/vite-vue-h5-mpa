@@ -1,26 +1,4 @@
-## Project setup
-
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn dev
-```
-
-### Compiles and minifies for production
-
-```
-yarn build:(release | stage | test | dev)
-```
-
-### Preview local build
-
-```
-yarn serve
-```
+## 切换分支查看
 
 ## 配置
 
